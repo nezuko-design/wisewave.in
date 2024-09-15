@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App Main</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Welcome to your Study App!</h2>
+            <p>Select a feature from the menu above.</p>
+        </main>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="icons/home.png" alt="Home Icon"> Home</a></li>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Calendar</h2>
+            <div id="calendar">
+                <!-- Calendar Integration -->
+                <p>Calendar content goes here.</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="timer.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="icons/home.png" alt="Home Icon"> Home</a></li>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Study Timer</h2>
+            <button onclick="startTimer()">Start Timer</button>
+            <button onclick="stopTimer()">Stop Timer</button>
+            <p id="timer-display">00:00</p>
+        </main>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="icons/home.png" alt="Home Icon"> Home</a></li>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add new task">
+            <button onclick="addTodo()">Add Task</button>
+            <ul id="todo-items"></ul>
+        </main>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="music.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="icons/home.png" alt="Home Icon"> Home</a></li>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Music Player</h2>
+            <input type="file" id="music-file" accept="audio/*">
+            <audio id="audio-player" controls>Your browser does not support the audio element.</audio>
+            <button onclick="playMusic()">Play</button>
+            <button onclick="pauseMusic()">Pause</button>
+        </main>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App AI Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="ai.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Study App</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="icons/home.png" alt="Home Icon"> Home</a></li>
+                    <li><a href="calendar.html"><img src="icons/calendar.png" alt="Calendar Icon"> Calendar</a></li>
+                    <li><a href="timer.html"><img src="icons/timer.png" alt="Timer Icon"> Timer</a></li>
+                    <li><a href="todo.html"><img src="icons/todo.png" alt="To-Do Icon"> To-Do List</a></li>
+                    <li><a href="music.html"><img src="icons/music.png" alt="Music Icon"> Music Player</a></li>
+                    <li><a href="ai.html"><img src="icons/ai.png" alt="AI Icon"> AI Chat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>AI Chat</h2>
+            <textarea id="ai-input" placeholder="Ask me something..."></textarea>
+            <button onclick="askAI()">Send</button>
+            <div id="ai-response"></div>
+        </main>
+    </div>
+</body>
+</html>
